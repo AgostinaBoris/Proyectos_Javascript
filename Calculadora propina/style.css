@@ -1,0 +1,118 @@
+html{
+    background-color: salmon;
+}
+
+.contenedor{
+    background-color: salmon;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    padding: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#propina-container{
+    background-color: white;
+    width: 50%;
+    margin: 50px auto;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ #resultados{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.persona{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+
+.persona h3{
+    text-align: center;
+}
+
+.form{
+    font-size: 30px;
+    text-align: center;
+}
+
+.form label,
+.form input{
+    display: block;
+    font-size: 23px;
+    padding: 10px;
+    width: 80%;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+
+#summary{
+    text-align: center;
+}
+
+.pagado{
+    background-color: #ccc;
+}
+
+#bgenerar{
+    font-size: 25px;
+    padding: 10px;
+    margin: 30px;
+    color: black;
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#personas{
+    font-size: 18px;
+}
+
+#total{
+    font-size: 18px;
+}
+
+#propina{
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 800px){
+    .contenedor{
+        background-color: #ff004c;
+        width: 100%;
+        height: auto;
+    }
+
+    #bgenerar{
+        background-color: rgb(69, 211, 211);
+    }
+}
+
+@media screen and (max-width: 400px){
+    .contenedor{
+        width: 100%;
+        height: auto;
+    }
+
+    #bgenerar{
+        background-color: gold;
+
+    }
+}

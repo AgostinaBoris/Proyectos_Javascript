@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propina</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="contenedor">
+    <h1>Calculadora de propina</h1>
+    <div id="propina-container">
+        <div class="form">
+            <label for="personas">Personas</label>
+            <input type="number" id="personas" value="0">
+
+            <label for="total">Total a pagar</label>
+            <input type="number" id="total" value="0">
+
+            <label for="propina">Propina</label>
+            <input type="text" id="propina" value="0">
+
+            <button id="bgenerar">Generar</button>
+        </div>
+
+        <div id="summary">
+        </div>
+
+        <div id="resultados">
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</div>
+</body>
+</html>

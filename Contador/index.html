@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <div id="temporizador-container">
+        <h1>Contador</h1>
+
+        <div id="display-container">
+          <div id="horas" class="display">
+            <div class="titulo">Horas</div>
+            <div class="numero">00</div>
+            <div class="botones-container">
+              <button class="bAumentar" data-unidad="horas">+</button>
+              <button class="bDisminuir" data-unidad="horas">-</button>
+            </div>
+          </div>
+          <div id="minutos" class="display">
+            <div class="titulo">Minutos</div>
+            <div class="numero">00</div>
+            <div class="botones-container">
+              <button class="bAumentar" data-unidad="minutos">+</button>
+              <button class="bDisminuir" data-unidad="minutos">-</button>
+            </div>
+          </div>
+          <div id="segundos" class="display">
+            <div class="titulo">Segundos</div>
+            <div class="numero">00</div>
+            <div class="botones-container">
+              <button class="bAumentar" data-unidad="segundos">+</button>
+              <button class="bDisminuir" data-unidad="segundos">-</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="botones-container">
+          <button id="bIniciar">Iniciar</button>
+          <button id="bDetener">Detener</button>
+          <button id="bReiniciar">Reiniciar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

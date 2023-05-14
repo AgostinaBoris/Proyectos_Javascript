@@ -1,0 +1,44 @@
+    #slider-container{
+            width: 1400px;
+            text-align: center;
+            margin: auto;
+        }
+
+        h1{
+            color: white;
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 50px;
+        }
+
+        #slider-container #buttons-container{
+            text-align: center;
+        }
+
+        .item{
+          display: none;
+        } 
+
+        #slider-container .item-active{
+            display: block;
+        }
+
+        #buttons-container{
+            margin: 80px;
+        }
+
+        #bPrev{
+            padding: 20px;
+            background-color: #ff2c69;
+            color: white;
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        #bNext{
+            padding: 20px;
+            background-color: #ff2c69;
+            color: white;
+            font-size: 18px;
+
+        }

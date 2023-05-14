@@ -1,0 +1,89 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #c468ff;
+}
+
+.form{
+    background-color: black;
+    padding: 30px;
+    width: 40%;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    background-color: #a0fb0e;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+}
+
+.form input{
+    margin: 40px auto;
+    padding: 12px;
+    display: block;
+    width: 80%;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    border: none;
+    background-color: #a0fb0e;
+    color: black;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+#eventsContainer{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: 100px auto;
+    display:flex;
+    flex-direction:column;
+    gap: 40px;
+}
+
+.event{
+    border: solid 10px #ccc;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.event .days{
+    text-align: center;
+    width: 100%;
+}
+
+.event .days .days-number{
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+}
+
+.event .event-name{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    width: 180px;
+}
+
+.event .event-date{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    width: 60px;
+}
+
+.event .actions{
+    padding: 30px;
+    font-size: 15px;
+}

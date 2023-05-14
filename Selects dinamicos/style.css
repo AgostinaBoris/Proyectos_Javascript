@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dadad8;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 120px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+#selects-container{
+    width: 800px;
+    margin: 100px auto;
+}
+
+select{
+    font-size: 20px;
+    padding: 8px;
+    width: 200px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}

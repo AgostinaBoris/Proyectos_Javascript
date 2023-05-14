@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+.rating{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    background-color: rgb(198, 198, 198);
+    -webkit-mask-image: url(star.svg);
+    mask-image: url(star.svg);
+    width: 100px;
+    height: 98px;
+    cursor: pointer;
+}
+
+.item-full{
+    background-color: yellow;
+}

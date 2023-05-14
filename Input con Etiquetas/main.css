@@ -1,0 +1,46 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c22557;
+}
+
+h1{
+    font-size: 4em;
+    color: #ffe8ef;
+    text-align: center;
+    margin: 90px auto;
+}
+
+.input{
+    font-family: inherit;
+    font-size: inherit;
+    padding: 10px;
+    min-width: 20px;
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+
+.input-tag-container{
+    margin: 100px auto;
+    display: flex;
+    padding: 15px;
+    width: 500px;
+    flex-wrap: wrap;
+    border: solid 1px black;
+    background-color: #ffe3c9;
+}
+
+.tag-container{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.tag-item{
+    border: solid 1px #ccc;
+    background-color: #eee;
+    display: flex;
+    padding: 5px;
+    border-radius: 3px;
+    align-items: center;
+}
